@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.protfolio-container{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.navlist{
+  width: 100%;
+  display: flex;
+  gap: 3.5rem;
+  height: 15vh;
+ 
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  
+}
+.navlist li{
+  
+list-style: none;
+}
+
+.navlist li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: white;
+}
+
+.left-container, .right-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+}
+.left-container{
+width: 70%;
+padding-left: 3rem;
+background:#262525 ;
+}
+.right-container{
+  background: #3877ff;
+width: 30%;
+
+}
+.icons .fa-brands {
+  color: white; 
+  font-size: 1.7rem; 
+}
+.fa-solid{
+  color: white; 
+  font-size: 1.7rem; 
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  
+}
+.content {
+  margin-left:4rem ;
+}
+.content h2{
+  font-size: 1.5rem;
+color: white;
+}
+.content h1{
+  font-size: 4rem;
+  color: #3877ff;
+}
+.content span{
+  
+  color: #3877ff;
+}
+.paragraph-container{
+font-size: 1.1rem;
+color: white;
+max-width: 38rem;
+margin: 1.5rem 0 3rem 0;
+line-height: 1.8rem;
+}
+.button ,.project{
+  border: .1rem solid #3877ff;
+  font-size: 1.2rem;
+  padding: .8rem 1.5rem;
+  border-radius:10px;
+  cursor: pointer;
+  margin-left: 30px;
+  transition: .5s ease;
+}
+.button{
+  color: #262525;
+  background: #3877ff;
+}
+.project{
+  background-color: #262525;
+  color: #3877ff;
+  
+}
+.project:hover{
+  color:#262525;
+  background: #3877ff;
+}
+
+
+.button:hover{
+  background-color: #262525;
+  color: #3877ff;
+  
+}
+.circle:nth-child(1){
+  background: red;
+  width: 38rem;
+  background: linear-gradient( 90deg,#3877ff 50%, #262525 50%);
+
+}
+.circle:nth-child(2){
+  background: white;
+  width: 30rem;
+  background: url("images/profile-pic.png"),no-repeat;
+  position: fixed;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+.desine .circle {
+  aspect-ratio: 1;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50% ,-50%);
+}
